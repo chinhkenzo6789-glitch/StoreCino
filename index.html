@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINO Store</title>
+  <link rel="stylesheet" href="style.css?v=20260319-6">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="CINO Designer">
+        <img src="assets/logo.png" class="brand-logo" alt="CINO Designer logo">
+        <div class="brand-copy">
+          <strong>CINO Designer</strong>
+          <span>Kho tài nguyên phục vụ ngành cưới</span>
+        </div>
+      </a>
+
+      <nav class="menu" aria-label="Điều hướng chính">
+        <button data-tab="home" class="active">Trang chủ</button>
+        <button data-tab="tainguyen">Tài nguyên</button>
+        <button data-tab="phanmem">Phần mềm</button>
+        <button data-tab="jsx">JSX Photoshop</button>
+        <button data-tab="panel">Panel</button>
+        <button data-tab="video">Project video</button>
+        <button data-tab="contact">Liên hệ</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="tab active">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="hero-kicker">Bộ sưu tập tài nguyên designer</span>
+            <h1>Kho tổng hợp các phần mềm, preset, LUT màu và các mẫu thiết kế Album ảnh cưới.</h1>
+            <p>
+              Tổng hợp phần mềm, preset, action, panel, JSX và tài nguyên thiết kế được sắp xếp
+              gọn gàng để bạn tìm, tải và sử dụng nhanh hơn.
+            </p>
+            <div class="hero-actions">
+              <button class="hero-btn primary" data-tab-trigger="tainguyen">Khám phá ngay</button>
+              <button class="hero-btn secondary" data-tab-trigger="phanmem">Xem phần mềm</button>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="hero-card hero-card-large">
+              <p class="hero-card-label">Nổi bật</p>
+              <strong>Preset, action, LUT, PSD</strong>
+              <span>Tối ưu workflow cho studio và freelancer.</span>
+            </div>
+            <div class="hero-card-grid">
+              <div class="hero-card image-card">
+                <img src="assets/Thumb1.JPG" alt="Tài nguyên Photoshop 1">
+              </div>
+              <div class="hero-card image-card">
+                <img src="assets/Thumb2.JPG" alt="Tài nguyên Photoshop 2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Danh mục nổi bật</span>
+              <h2>Truy cập nhanh theo nhu cầu</h2>
+            </div>
+            <p>Website được thiết kế và cung cấp bởi CINO x TL Designer </p>
+          </div>
+
+          <div class="category-grid">
+            <button class="category-card" data-tab-trigger="tainguyen">
+              <span class="category-icon">01</span>
+              <strong>Tài nguyên</strong>
+              <p>File PSD, template, bộ màu và asset sử dụng ngay.</p>
+            </button>
+            <button class="category-card" data-tab-trigger="phanmem">
+              <span class="category-icon">02</span>
+              <strong>Phần mềm</strong>
+              <p>Các công cụ hỗ trợ quy trình làm việc cho designer.</p>
+            </button>
+            <button class="category-card" data-tab-trigger="jsx">
+              <span class="category-icon">03</span>
+              <strong>JSX Photoshop</strong>
+              <p>Script tự động hóa thao tác lặp đi lặp lại.</p>
+            </button>
+            <button class="category-card" data-tab-trigger="panel">
+              <span class="category-icon">04</span>
+              <strong>Panel</strong>
+              <p>Bảng điều khiển mở rộng cho các tác vụ nâng cao.</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="tainguyen" class="tab content-tab">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Danh mục</span>
+            <h2>Tài nguyên</h2>
+          </div>
+          <p>Các mẫu layout,Cover thiết kế Album ảnh cưới cập nhật xu hướng 2026.</p>
+        </div>
+        <div class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="phanmem" class="tab content-tab">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Danh mục</span>
+            <h2>Phần mềm</h2>
+          </div>
+          <p>Các công cụ và bộ cài phục vụ quy trình làm việc.</p>
+        </div>
+        <div class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="jsx" class="tab content-tab">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Danh mục</span>
+            <h2>JSX Photoshop</h2>
+          </div>
+          <p>Script và tự động hóa cho Adobe Photoshop.</p>
+        </div>
+        <div class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="panel" class="tab content-tab">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Danh mục</span>
+            <h2>Panel</h2>
+          </div>
+          <p>Các panel và bộ extension hỗ trợ workflow.</p>
+        </div>
+        <div class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="video" class="tab content-tab">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Danh mục</span>
+            <h2>Project video</h2>
+          </div>
+          <p>Chia sẻ các Project Auto làm silde cưới tự động,thiết kế intro hoạt động bằng 1 click.</p>
+        </div>
+        <div class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="tab content-tab">
+      <div class="container">
+        <div class="contact-card">
+          <span class="eyebrow">Liên hệ</span>
+          <h2>Hỗ trợ và tư vấn</h2>
+          <p>Cần tư vấn nhanh về sản phẩm, bản quyền hoặc cách sử dụng, hãy liên hệ trực tiếp.</p>
+          <div class="contact-lines">
+            <span>Zalo: Nguyễn Đức Chinh</span>
+            <span>Phone: 0969.456.914</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="product-modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal="true"></div>
+    <div class="modal-dialog modal-dialog-wide" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Đóng">×</button>
+
+      <div class="modal-gallery">
+        <div class="modal-main-image">
+          <button type="button" class="modal-gallery-nav modal-gallery-prev" id="modal-prev" aria-label="Ảnh trước">
+            ‹
+          </button>
+          <img id="modal-image" src="" alt="">
+          <button type="button" class="modal-gallery-nav modal-gallery-next" id="modal-next" aria-label="Ảnh sau">
+            ›
+          </button>
+        </div>
+        <div class="modal-thumbs" id="modal-thumbs"></div>
+      </div>
+
+      <div class="modal-body modal-body-rich">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description" class="modal-description"></p>
+
+        <div class="modal-price-block">
+          <span class="modal-info-label">Giá bán</span>
+          <strong id="modal-price-text">-</strong>
+        </div>
+
+        <div class="modal-actions">
+          <button id="modal-download" class="modal-download">Tải xuống</button>
+          <button id="modal-cancel" class="modal-cancel">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=20260319-6"></script>
+</body>
+</html>
